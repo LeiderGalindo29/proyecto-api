@@ -19,6 +19,16 @@
       "fnacimiento": "1987-03-15",
       "email": "lauraesguerra@gmail.com",
       "password": "123456"
+    },
+    {
+      "id": 4,
+      "tipodoc": "Cédula Ciudadanía",
+      "numdoc": "15678410",
+      "nombre": "Valentina",
+      "apellido": "Castillo Rodriguez",
+      "fnacimiento": "1999-08-10",
+      "email": "valencas99@gmail.com",
+      "password": "vcsr187"
     }
   ],
   "habitacion": [
@@ -28,15 +38,31 @@
       "capacidad": 3,
       "camas": 2,
       "caracteristicas": "2 camas 1 doble 1 sencilla, baño privado",
-      "valornoche": "125000"
+      "valornoche": 125000
     },
     {
       "id": 102,
       "nombrehab": "Suite Basic",
       "capacidad": 2,
-      "camas": 1,
+      "camas": 2,
       "caracteristicas": "1 cama doble, baño privado",
       "valornoche": 100000
+    },
+    {
+      "id": 103,
+      "nombrehab": "Suite Star",
+      "capacidad": 5,
+      "camas": 3,
+      "caracteristicas": "2 cama doble, 3 baño privado",
+      "valornoche": 150000
+    },
+    {
+      "id": 104,
+      "nombrehab": "Suite Suavely",
+      "capacidad": 2,
+      "camas": 1,
+      "caracteristicas": "1 cama doble, 1 baño privado",
+      "valornoche": 90000
     }
   ],
   "reservas": [
@@ -59,6 +85,16 @@
       "valorreserva": 300000,
       "userId": 2,
       "habitacionId": 102
+    },
+    {
+      "id": 3,
+      "fechareserva": "2022-02-07",
+      "totalnoches": 3,
+      "fechaentrada": "2022-04-20",
+      "fechasalida": "2022-04-21",
+      "valorreserva": 400000,
+      "userId": 1,
+      "habitacionId": 101
     }
   ]
 }
